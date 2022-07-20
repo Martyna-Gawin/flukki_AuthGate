@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flukki">
+    package="com.martynagawin.flukki">
    <application
         android:label="flukki"
         android:name="${applicationName}"

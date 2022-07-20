@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723128501765",
+    "project_id": "flukki1",
+    "storage_bucket": "flukki1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723128501765:android:b74be7fd670fb5bdaefe6c",
+        "android_client_info": {
+          "package_name": "com.martynagawin.flukki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723128501765-hjlv3j45sqtf5v1hcoqm5q5rmc6edh1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfF_VEzN7Cfatj5kmT_B0Y3Nzmd9uHCoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723128501765-hjlv3j45sqtf5v1hcoqm5q5rmc6edh1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

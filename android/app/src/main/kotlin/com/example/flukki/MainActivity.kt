@@ -1,4 +1,4 @@
-package com.example.flukki
+package com.martynagawin.flukki
 
 import io.flutter.embedding.android.FlutterActivity
 
