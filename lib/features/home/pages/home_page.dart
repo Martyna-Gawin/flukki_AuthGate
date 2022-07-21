@@ -1,3 +1,4 @@
+import 'package:flukki/features/auth/pages/user_profile.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,9 +9,21 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-      title: const Text('Flukki'),
-    ),
+      appBar: AppBar(
+        title: const Text('Flukki'),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const UserProfile(),
+                ),
+              );
+            },
+            icon: const Icon(Icons.person),
+          ),
+        ],
+      ),
     );
   }
 }
